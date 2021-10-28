@@ -1,9 +1,11 @@
+import Section1 from "../layouts/Section1/Section1";
+
 const Home = () => {
   return (
     <div>
-      <p>Home</p>
+      <Section1 />
     </div>
-  )
-}
+  );
+};
 
 export default Home;

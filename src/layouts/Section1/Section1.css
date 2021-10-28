@@ -1,0 +1,26 @@
+.section-one {
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.section-one-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+@media (min-width: 650px) {
+  .section-one {
+    background-position: center center;
+  }
+
+  .section-one-content {
+    align-items: center;
+    justify-content: center;
+  }
+}
