@@ -1,9 +1,13 @@
-import Section1 from "../layouts/Section1/Section1";
+import WelcomeSection from "../layouts/WelcomeSection/WelcomeSection";
+import MenusSection from "../layouts/MenusSection/MenusSection";
+import InfosSection from "../layouts/InfosSection/InfosSection";
 
 const Home = () => {
   return (
     <div>
-      <Section1 />
+      <WelcomeSection />
+      <MenusSection />
+      <InfosSection />
     </div>
   );
 };

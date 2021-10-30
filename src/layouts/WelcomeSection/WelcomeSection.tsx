@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import "./Section1.css";
+import "./WelcomeSection.css";
 import desktopImage from "./pineapple-desktop.jpg";
 import mobileImage from "./pineapple-mobile.jpg";
 
-const Section1 = () => {
+const WelcomeSection = () => {
   const imageUrl = useWindowWidth() >= 650 ? desktopImage : mobileImage;
 
   return (
@@ -12,8 +12,8 @@ const Section1 = () => {
       style={{ backgroundImage: `url(${imageUrl})` }}
     >
       <div className='section-one-content'>
-        <h1>Bienvenur au Fren'sh</h1>
-        <p>HAMBURGER MAISON LES PIEDS DANS L'EAU</p>
+        <h1>FREN'SH</h1>
+        <p>Toute l'équipe vous souhaite la bienvenue</p>
       </div>
     </div>
   );
@@ -34,4 +34,4 @@ const useWindowWidth = () => {
   return windowWidth;
 };
 
-export default Section1;
+export default WelcomeSection;
