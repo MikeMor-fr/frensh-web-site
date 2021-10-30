@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./WelcomeSection.css";
+import "./WelcomeSection.scss";
 import desktopImage from "./pineapple-desktop.jpg";
 import mobileImage from "./pineapple-mobile.jpg";
 
