@@ -1,10 +1,13 @@
 import "./InfosSection.scss";
-import InfoCard from "../../components/InfoCard/InfoCard";
+import InfoCardRight from "../../components/InfoCardRight/InfoCardRight";
+import InfoCardLeft from "../../components/InfoCardLeft/InfoCardLeft";
 
 const InfosSection = (): JSX.Element => {
   return (
     <div className='info-section'>
-      <InfoCard />
+      <InfoCardRight />
+      <InfoCardLeft />
+      <InfoCardRight />
     </div>
   );
 };

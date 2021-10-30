@@ -1,6 +1,6 @@
-.container {
+.container-right {
   display: grid;
-  margin: 10px;
+  margin: 10px 10px 90px 10px;
   grid-column-gap: 20px;
   grid-template-columns: 2fr 1fr;
 }
