@@ -1,12 +1,14 @@
 import "./ImageArea.scss";
 
-const ImageArea = () => {
+interface ImageAreaProps {
+  image: string;
+}
+
+const ImageArea = (props: ImageAreaProps) => {
+  const { image } = props;
   return (
     <div className='image-area'>
-      <img
-        src='https://cdn.dribbble.com/users/634336/screenshots/2246883/_____.png'
-        alt='n'
-      />
+      <img src={image} alt='n' />
     </div>
   );
 };
