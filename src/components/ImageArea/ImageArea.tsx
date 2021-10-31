@@ -1,4 +1,4 @@
-import { Card, CardContent, CardMedia } from "@mui/material";
+import { Card, CardMedia } from "@mui/material";
 import "./ImageArea.scss";
 
 interface ImageAreaProps {
