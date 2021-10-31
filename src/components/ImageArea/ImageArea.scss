@@ -1,6 +1,13 @@
+$backgrounImage: "https://cdn.dribbble.com/users/634336/screenshots/2246883/_____.png";
+
+.image-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 .image-area {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 500px;
+  background: url($backgrounImage) no-repeat center;
+  background-size: contain;
   margin: 20px;
 }

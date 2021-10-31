@@ -10,7 +10,7 @@ const description1 =
 const About = (): JSX.Element => {
   return (
     <div style={{ marginTop: "100px" }}>
-      <InfoCardLeft image={image} title={title1} description={description1} />
+      <InfoCardLeft title={title1} description={description1} />
     </div>
   );
 };
