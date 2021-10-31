@@ -5,10 +5,11 @@ import ImageArea from "../ImageArea/ImageArea";
 interface InfoCardRightProps {
   title: string;
   description: string;
+  image: string;
 }
 
 const InfosCardRight = (props: InfoCardRightProps): JSX.Element => {
-  const { title, description } = props;
+  const { title, description, image } = props;
 
   return (
     <Grid container spacing={2} alignItems='center'>
@@ -16,7 +17,7 @@ const InfosCardRight = (props: InfoCardRightProps): JSX.Element => {
         <TextArea title={title} description={description} />
       </Grid>
       <Grid item xs={12} md={6}>
-        <ImageArea />
+        <ImageArea image={image} />
       </Grid>
     </Grid>
   );

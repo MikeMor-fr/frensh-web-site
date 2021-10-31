@@ -2,6 +2,9 @@ import "./InfosSection.scss";
 import InfoCardRight from "../../components/InfoCardRight/InfoCardRight";
 import InfoCardLeft from "../../components/InfoCardLeft/InfoCardLeft";
 
+const image1 =
+  "https://cdn.dribbble.com/users/634336/screenshots/2246883/_____.png";
+
 const title1 = "Restaurant français sympathique situé dans un coin romantique";
 const description1 =
   "La cuisine française vous gâtera avec son exclusive variété de délices culinaires. L’excellente restauration rapide et les excellents plats du terroir feront plaisir à tout le monde. Goûtez par exemple à notre assortiment de burgers plébiscité ou à nos sandwichs. Goûtez aussi volontiers une tasse de café, un bon verre de vin, une boisson fraîche, un verre de bière rafraîchissant ou un thé chaud lorsque vous viendrez nous voir. Laissez-vous séduire le temps d’une pause au dessert par nos pains frais ou par notre crème glacée savoureuse. L’accueil est notre passion. Venez pour le déjeuner et passez un moment magique dans notre établissement. Un espace fumeur est réservé aux amateurs de tabac.";
@@ -17,9 +20,11 @@ const description3 =
 const InfosSection = (): JSX.Element => {
   return (
     <div className='info-section'>
-      <InfoCardRight title={title1} description={description1} />
-      <InfoCardLeft title={title2} description={description2} />
-      <InfoCardRight title={title3} description={description3} />
+      <InfoCardRight title={title1} description={description1} image={image1} />
+      <br />
+      <InfoCardLeft title={title2} description={description2} image={image1} />
+      <br />
+      <InfoCardRight title={title3} description={description3} image={image1} />
     </div>
   );
 };

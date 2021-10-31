@@ -1,9 +1,27 @@
+import { Card, CardContent } from "@mui/material";
 import "./ImageArea.scss";
 
-const ImageArea = () => {
+interface ImageAreaProps {
+  image: string;
+}
+
+const ImageArea = (props: ImageAreaProps) => {
+  const { image } = props;
   return (
     <div className='image-container'>
-      <div className='image-area'></div>
+      <Card>
+        <CardContent>
+          <img
+            src={image}
+            style={{
+              height: "auto",
+              width: "100%",
+              borderRadius: "10px",
+            }}
+            alt='hey'
+          />
+        </CardContent>
+      </Card>
     </div>
   );
 };
