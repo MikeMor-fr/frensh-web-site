@@ -9,7 +9,10 @@ import MenuIcon from "@mui/icons-material/Menu";
 export default function ButtonAppBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position='fixed' color='primary'>
+      <AppBar
+        position='fixed'
+        style={{ backgroundColor: "#ffdf71", color: "black" }}
+      >
         <Toolbar>
           <Typography variant='h6' component='div' sx={{ flexGrow: 2 }}>
             Fren'sh
