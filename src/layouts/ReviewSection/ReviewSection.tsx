@@ -2,12 +2,12 @@ import { Grid } from "@mui/material";
 import ReviewCard from "../../components/ReviewCard/ReviewCard";
 import TitleSection from "../../components/TitleSection/TitleSection";
 
-import "./AvisSection.scss";
+import "./ReviewSection.scss";
 
-const AvisSection = () => {
+const ReviewSection = () => {
   const reviews = [1, 2, 3];
   return (
-    <div className='avis-section'>
+    <div className='review-section'>
       <TitleSection title={"Ce que disent les Fren'sh"} />
 
       <div style={{ margin: "100px" }}>
@@ -32,4 +32,4 @@ const AvisSection = () => {
   );
 };
 
-export default AvisSection;
+export default ReviewSection;
