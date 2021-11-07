@@ -17,8 +17,8 @@ const WelcomeSection = () => {
       style={{ backgroundImage: `url(${imageUrl})` }}
     >
       <div className='section-one-content'>
-        <h1>{t("welcome_message")}</h1>
-        <p>Toute l'équipe vous souhaite la bienvenue</p>
+        <h1>{t("welcome_section.title")}</h1>
+        <p>{t("welcome_section.subtitle")}</p>
       </div>
     </div>
   );

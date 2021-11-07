@@ -4,15 +4,20 @@ import MenuCard from "../../components/MenuCard/MenuCard";
 import TitleSection from "../../components/TitleSection/TitleSection";
 import "./MenusSection.scss";
 
+// Tranlate
+import "../../i18n";
+import { useTranslation } from "react-i18next";
+
 const MenusSection = (): JSX.Element => {
   let history = useHistory();
+  const { t } = useTranslation();
   const menus = [
-    "Nos Burgers",
-    "Nos Salades",
-    "Nos Frites",
-    "Nos Assiettes",
-    "Nos Hot Dogs",
-    "Nos Sandwiches",
+    t("menus_section.burgers"),
+    t("menus_section.salades"),
+    t("menus_section.frites"),
+    t("menus_section.assiettes"),
+    t("menus_section.hot_dogs"),
+    t("menus_section.sandwiches"),
   ];
   const handleClick = () => {
     history.push("/menus");
