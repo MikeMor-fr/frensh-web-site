@@ -1,6 +1,7 @@
 import { Grid } from "@mui/material";
 import { useHistory } from "react-router-dom";
 import MenuCard from "../../components/MenuCard/MenuCard";
+import TitleSection from "../../components/TitleSection/TitleSection";
 import "./MenusSection.scss";
 
 const MenusSection = (): JSX.Element => {
@@ -18,10 +19,7 @@ const MenusSection = (): JSX.Element => {
   };
   return (
     <div style={{ margin: "50px" }}>
-      <div className='menu-title'>
-        <h1>Nos Menus</h1>
-        <hr className='horizontal-line' />
-      </div>
+      <TitleSection title={"Nos Menus"} />
 
       <Grid container spacing={5}>
         {menus.map((menu) => (
