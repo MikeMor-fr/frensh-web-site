@@ -4,6 +4,7 @@ import InfosSection from "../layouts/InfosSection/InfosSection";
 import IntroSection from "../layouts/IntroSection/IntroSection";
 import MentionsLegalesSection from "../layouts/MentionsLegalesSection/MentionsLegalesSection";
 import ReviewSection from "../layouts/ReviewSection/ReviewSection";
+import HoursSection from "../layouts/HoursSection/HoursSection";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <IntroSection />
       <InfosSection />
       <ReviewSection />
+      <HoursSection />
       <MentionsLegalesSection />
     </div>
   );

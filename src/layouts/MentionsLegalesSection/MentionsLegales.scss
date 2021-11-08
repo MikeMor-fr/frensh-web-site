@@ -1,7 +1,9 @@
+@import "../../styles.global.scss";
+
 .mentions-legales {
   height: 100vh;
   margin-top: 3%;
-  // background-color: #ffdf71;
+  background-color: $themeColor;
   background-size: cover;
   background-repeat: no-repeat;
 }

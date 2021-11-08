@@ -1,4 +1,6 @@
+@import "../../styles.global.scss";
+
 .review-section {
-  background-color: #ffdf71;
+  background-color: $themeColor;
   padding: 50px;
 }

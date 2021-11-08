@@ -44,5 +44,10 @@
       "review": "Super Bon !",
       "name": "Mikael M."
     }
+  },
+  "hours_section": {
+    "title": "Infos Pratiques",
+    "hours": "HORAIRES",
+    "adresses": "ADRESSES"
   }
 }

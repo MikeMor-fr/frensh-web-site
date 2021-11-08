@@ -1,5 +1,7 @@
+@import "../../styles.global.scss";
+
 .intro-section {
-  background-color: #ffdf71;
+  background-color: $themeColor;
   padding: 7vh;
 }
 

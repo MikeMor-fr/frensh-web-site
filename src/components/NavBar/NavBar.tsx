@@ -6,13 +6,23 @@ import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 
+import "./NavBar.scss";
+
 export default function ButtonAppBar() {
+  const styles = {
+    active: {
+      visibility: "visible",
+      transition: "all 0.5s",
+    },
+    hidden: {
+      visibility: "hidden",
+      transition: "all 0.5s",
+      transform: "translateY(-100%)",
+    },
+  };
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar
-        position='fixed'
-        style={{ backgroundColor: "#ffdf71", color: "black" }}
-      >
+      <AppBar position='fixed' className='app-bar'>
         <Toolbar>
           <Typography variant='h6' component='div' sx={{ flexGrow: 2 }}>
             Fren'sh
