@@ -1,6 +1,10 @@
 @import "../../styles.global.scss";
 
 .review-section {
-  background-color: $themeColor;
+  background-image: linear-gradient(
+    $gradientColor,
+    $themeColor,
+    $gradientColor
+  );
   padding: 50px;
 }

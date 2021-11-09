@@ -1,6 +1,6 @@
 import TitleSection from "../../components/TitleSection/TitleSection";
 import HoursCard from "../../components/HoursCard/HoursCard";
-import { Card, CardMedia, Grid, useMediaQuery } from "@mui/material";
+import { Grid, useMediaQuery } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 import "./HoursSection.scss";
 

@@ -1,0 +1,13 @@
+@import "../../styles.global.scss";
+
+.mentions-legales {
+  height: 50vh;
+  margin-top: 3%;
+  background-image: linear-gradient($gradientColor, $themeColor, $themeColor);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}

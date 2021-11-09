@@ -1,6 +1,10 @@
 $themeColor: #ffdf71;
+$gradientColor: white;
 $textColor: black;
+$navbarColor: #ffdf71;
 
 :export {
   themeColor: $themeColor;
+  gradientColor: $gradientColor;
+  navbarColor: $navbarColor;
 }

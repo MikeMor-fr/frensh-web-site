@@ -1,7 +1,7 @@
 import { Card, CardContent, Typography } from "@mui/material";
 import "./HoursCard.scss";
 
-interface HoursCard {
+interface HoursCardProps {
   title: string;
 }
 
@@ -41,7 +41,7 @@ const horaires: Horaire[] = [
   },
 ];
 
-const HoursCard = (props: HoursCard) => {
+const HoursCard = (props: HoursCardProps) => {
   const { title } = props;
 
   return (
