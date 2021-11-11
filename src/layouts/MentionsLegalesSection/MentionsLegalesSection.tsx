@@ -1,12 +1,7 @@
-import MentionsLegales from "../../components/MentionsLegales/MentionsLegales";
 import "./MentionsLegalesSection.scss";
 
 const MentionsLegalesSection = () => {
-  return (
-    <div className='mentions-legales'>
-      <MentionsLegales />
-    </div>
-  );
+  return <div className='mentions-legales'></div>;
 };
 
 export default MentionsLegalesSection;

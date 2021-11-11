@@ -59,7 +59,20 @@
   },
   "hours_section": {
     "title": "Infos Pratiques",
-    "hours": "HORAIRES",
-    "adresses": "ADRESSES"
+    "hours": "Horaires d'ouverture",
+    "monday": "Lundi",
+    "tuesday": "Mardi",
+    "wednesday": "Mercredi",
+    "thursday": "Jeudi",
+    "friday": "Vendredi",
+    "saturday": "Samedi",
+    "sunday": "Dimanche"
+  },
+  "address_section": {
+    "address": "Adresse",
+    "button": "Itinéraire",
+    "address1": "2000 Route du Bord de Mer",
+    "address2": "06600 Antibes",
+    "address3": "France"
   }
 }
