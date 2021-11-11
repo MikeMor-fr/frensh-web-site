@@ -18,14 +18,11 @@ const ReviewCard = (props: ReviewCardProps) => {
   const avatar = (): JSX.Element => {
     if (props.img) {
       return (
-        <Avatar alt={name} src={props.img} sx={{ width: 100, height: 100 }} />
+        <Avatar alt={name} src={props.img} sx={{ width: 50, height: 50 }} />
       );
     } else {
       return (
-        <Avatar
-          sx={{ bgcolor: red[500], width: 100, height: 100 }}
-          aria-label='recipe'
-        >
+        <Avatar sx={{ bgcolor: red[500] }} aria-label='recipe'>
           {name[0]}
         </Avatar>
       );
@@ -34,24 +31,12 @@ const ReviewCard = (props: ReviewCardProps) => {
 
   return (
     <div className='review-card'>
-      <Card sx={{ maxWidth: 345 }} style={{ width: "500px", height: "400px" }}>
+      <Card sx={{ maxWidth: 345 }}>
         <div className='review-header'>
-          <CardHeader avatar={avatar()} />
+          <CardHeader avatar={avatar()} title={comment} subheader={name} />
         </div>
 
         <Rating name='read-only' value={reviews} readOnly />
-        <CardContent>
-          <Typography gutterBottom variant='h5' component='div'>
-            {comment}
-          </Typography>
-        </CardContent>
-        <div className='review-name'>
-          <CardContent>
-            <Typography gutterBottom variant='h6' component='div'>
-              {name}
-            </Typography>
-          </CardContent>
-        </div>
       </Card>
     </div>
   );

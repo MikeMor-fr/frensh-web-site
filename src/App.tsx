@@ -3,7 +3,6 @@ import NavBar from "./components/NavBar/NavBar";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Menus from "./pages/Menu";
-import "./App.scss";
 
 function App() {
   return (

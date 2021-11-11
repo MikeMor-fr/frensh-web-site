@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./WelcomeSection.scss";
-import desktopImage from "./welcome.jpg";
-import mobileImage from "./pineapple-mobile.jpg";
+import desktopImage from "../../assets/welcome.jpg";
+import mobileImage from "../../assets/welcome.jpg";
 
 // tr anslation
 import { useTranslation } from "react-i18next";

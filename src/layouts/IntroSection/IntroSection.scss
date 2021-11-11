@@ -1,14 +1,11 @@
 @import "../../styles.global.scss";
 
 .intro-section {
-  background-image: linear-gradient(
-    $gradientColor,
-    $themeColor,
-    $gradientColor
-  );
+  background-color: $themeColor;
   padding: 7vh;
 }
 
 .text-intro-section {
   margin-top: 3%;
+  text-align: center;
 }

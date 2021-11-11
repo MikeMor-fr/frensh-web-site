@@ -2,12 +2,13 @@ import "./InfosSection.scss";
 import InfoCardRight from "../../components/InfoCardRight/InfoCardRight";
 import InfoCardLeft from "../../components/InfoCardLeft/InfoCardLeft";
 
+// Images
+import soirée from "../../assets/soirée.jpg";
+
 // Translate
 import "../../i18n";
 import { useTranslation } from "react-i18next";
 
-const image1 =
-  "https://mfacdn.cachefly.net/chooseveg/sites/2/2018/11/Fun-Vegan-Appetizers.jpg";
 const image2 =
   "https://mfacdn.cachefly.net/chooseveg/sites/2/2018/11/Fun-Vegan-Appetizers.jpg";
 const image3 =
@@ -20,7 +21,7 @@ const InfosSection = (): JSX.Element => {
       <InfoCardRight
         title={t("infos_section.first.title")}
         description={t("infos_section.first.subtitle")}
-        image={image1}
+        image={soirée}
       />
       <br />
       <InfoCardLeft
