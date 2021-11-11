@@ -1,20 +1,30 @@
+@import "../../styles.global.scss";
+
 .review-card {
-  transition: 0.4s;
-  &:hover,
-  &:focus {
-    // cursor: pointer;
-    box-shadow: 10px 10px 5px grey;
-    transform: scale3d(1.1, 1.1, 1) rotateZ(-5deg);
-    transition: 0.4s;
-  }
-}
-
-.review-header {
   display: flex;
-  justify-content: center;
-  margin-bottom: 10%;
+  width: 500px;
+  @include transition;
 }
 
-.review-name {
-  padding-top: 10%;
+.rating {
+  margin-left: 20px;
 }
+
+.comment {
+  color: $blackColor;
+}
+
+.author-name {
+  color: dimgray;
+  font-style: italic;
+}
+
+// .review-header {
+//   display: flex;
+//   justify-content: center;
+//   margin-bottom: 10%;
+// }
+
+// .review-name {
+//   padding-top: 10%;
+// }

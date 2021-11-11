@@ -1,8 +1,5 @@
-import { CardHeader, Avatar, Rating } from "@mui/material";
-import Card from "@mui/material/Card";
-import CardContent from "@mui/material/CardContent";
+import { Avatar, Rating } from "@mui/material";
 import { red } from "@mui/material/colors";
-import Typography from "@mui/material/Typography";
 import "./ReviewCard.scss";
 
 interface ReviewCardProps {
@@ -31,13 +28,13 @@ const ReviewCard = (props: ReviewCardProps) => {
 
   return (
     <div className='review-card'>
-      <Card sx={{ maxWidth: 345 }}>
-        <div className='review-header'>
-          <CardHeader avatar={avatar()} title={comment} subheader={name} />
-        </div>
+      <div>{avatar()}</div>
 
+      <div className='rating'>
         <Rating name='read-only' value={reviews} readOnly />
-      </Card>
+        <p className='comment'>{comment}</p>
+        <p className='author-name'>{name}</p>
+      </div>
     </div>
   );
 };

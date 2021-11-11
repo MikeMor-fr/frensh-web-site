@@ -33,16 +33,28 @@
   "review_section": {
     "title": "Ce que disent les Fren'sh",
     "review_1": {
-      "review": "Super Bon !",
-      "name": "Mikael M."
+      "review": "Facile d’accès, grand parking de plage à côté, des burgers réalisés sur commande, frais. Tarifs corrects, personnel sympathique… et une grande terrasse ! Impec une bonne adresse de plage",
+      "name": "Stéphane TALBOT"
     },
     "review_2": {
-      "review": "Super Bon !",
-      "name": "Mikael M."
+      "review": "Très bon veggie burger et frites aux oignons, avec une vue imprenable !",
+      "name": "Oxy Flax"
     },
     "review_3": {
-      "review": "Super Bon !",
-      "name": "Mikael M."
+      "review": "Endroit super agréable ...différents choix de hamburgers..😀pour passer un bon moment de détente face à la mer je conseille 👍👍Mélisse et Gaby super😊",
+      "name": "bernard neo"
+    },
+    "review_4": {
+      "review": "Des jeunes qui font ça comme on aime. Salades copieuses, burgers savoureux, frites cuites à la perfection. Tout ça à des prix très abordables. Et dans un cadre sympa et ombragé.",
+      "name": "Matthieu Fourage"
+    },
+    "review_5": {
+      "review": "Un snack bien sympa sur la plage de la Siesta ..Acceuil chaleureux !! Produits de qualité !!  Prix sympas !! Adresse à retenir !!",
+      "name": "Gilles A"
+    },
+    "review_6": {
+      "review": "Excellent snack très très bon ! Rapport qualité prix c'est les meilleurs ! Bravo",
+      "name": "Prestige Car Services"
     }
   },
   "hours_section": {

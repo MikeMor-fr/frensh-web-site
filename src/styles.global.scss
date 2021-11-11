@@ -2,6 +2,27 @@ $themeColor: #f7f7f7;
 $textColor: black;
 $blackColor: #212529;
 
+@mixin transition {
+  transition: 0.4s;
+  &:hover,
+  &:focus {
+    box-shadow: 10px 10px 5px grey;
+    transform: scale3d(1.1, 1.1, 1);
+    transition: 0.4s;
+  }
+}
+
+@mixin menu-transition {
+  transition: 0.4s;
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    box-shadow: 10px 10px 5px grey;
+    transform: scale3d(1.1, 1.1, 1);
+    transition: 0.4s;
+  }
+}
+
 :export {
   themeColor: $themeColor;
   textColor: $textColor;
