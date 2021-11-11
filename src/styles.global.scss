@@ -23,6 +23,11 @@ $blackColor: #212529;
   }
 }
 
+@mixin imageArea {
+  display: flex;
+  justify-content: center;
+}
+
 :export {
   themeColor: $themeColor;
   textColor: $textColor;

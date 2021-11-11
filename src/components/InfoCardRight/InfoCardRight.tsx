@@ -2,6 +2,8 @@ import Grid from "@mui/material/Grid";
 import TextArea from "../TextArea/TextArea";
 import ImageArea from "../ImageArea/ImageArea";
 
+import "./InfoCardRight.scss";
+
 interface InfoCardRightProps {
   title: string;
   description: string;
@@ -17,7 +19,9 @@ const InfosCardRight = (props: InfoCardRightProps): JSX.Element => {
         <TextArea title={title} description={description} />
       </Grid>
       <Grid item xs={12} md={6}>
-        <ImageArea image={image} />
+        <div className='grid-image-area-right'>
+          <ImageArea image={image} />
+        </div>
       </Grid>
     </Grid>
   );

@@ -4,6 +4,8 @@ import { Grid } from "@mui/material";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
 
+import "./InfoCardLeft.scss";
+
 interface InfoCardLeftProps {
   title: string;
   description: string;
@@ -23,7 +25,9 @@ const InfoCardLeft = (props: InfoCardLeftProps): JSX.Element => {
       direction={mobileScreen ? "column-reverse" : "row"}
     >
       <Grid item xs={12} md={6}>
-        <ImageArea image={image} />
+        <div className='grid-image-area-left'>
+          <ImageArea image={image} />
+        </div>
       </Grid>
       <Grid item xs={12} md={6}>
         <TextArea title={title} description={description} />

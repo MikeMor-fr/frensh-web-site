@@ -1,16 +1,11 @@
+.menu-section-container {
+  margin: 50px;
+}
+
 .menu-section {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   margin-top: 5vh;
   margin-bottom: 5vh;
-}
-
-hr.horizontal-line {
-  border: solid 1px black;
-  width: 200px;
-}
-
-.menu-title {
-  margin-bottom: 100px;
 }

@@ -17,7 +17,7 @@ const MenuCard = (props: MenuCardProps) => {
     <div className='menu-card'>
       <Card sx={{ maxWidth: 345 }} onClick={onClickEvent}>
         <CardMedia component='img' height='50%' image={img} alt='hamburger' />
-        <CardContent>
+        <CardContent style={{ textAlign: "center" }}>
           <Typography gutterBottom variant='h5' component='div'>
             {title}
           </Typography>

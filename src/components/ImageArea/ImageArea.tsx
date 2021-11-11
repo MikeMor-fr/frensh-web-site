@@ -8,11 +8,9 @@ interface ImageAreaProps {
 const ImageArea = (props: ImageAreaProps) => {
   const { image } = props;
   return (
-    <div className='image-container'>
-      <Card style={{ width: "70%" }}>
-        <CardMedia component='img' image={image} alt='hey' />
-      </Card>
-    </div>
+    <Card className='image-card'>
+      <CardMedia component='img' image={image} alt='hey' />
+    </Card>
   );
 };
 
