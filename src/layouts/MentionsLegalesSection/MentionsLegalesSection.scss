@@ -1,7 +1,7 @@
 @import "../../styles.global.scss";
 
 .mentions-legales {
-  height: 50vh;
+  height: 100vh;
   margin-top: 3%;
   background-color: $blackColor;
   background-size: cover;
@@ -9,5 +9,5 @@
 
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
 }
