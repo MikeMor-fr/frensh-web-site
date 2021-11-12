@@ -1,0 +1,23 @@
+@import "../../styles.global.scss";
+
+.end-section {
+  background-color: $blackColor;
+  text-align: center;
+  color: white;
+}
+
+.contact-email {
+  color: white;
+}
+
+a.nostyle:link {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+a.nostyle:visited {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: pointer;
+}

@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar/NavBar";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Menus from "./pages/Menu";
+import EndSection from "./layouts/EndSection/EndSection";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route exact path='/' component={Home} />
         </Switch>
       </Router>
+      <EndSection />
     </div>
   );
 }

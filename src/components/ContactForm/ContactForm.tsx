@@ -1,70 +1,68 @@
-import { Typography, Grid, TextField, Button } from "@mui/material";
-import { alpha, styled } from "@mui/material/styles";
+import { Grid, TextField, Button } from "@mui/material";
+import { styled } from "@mui/material/styles";
+import TitleSection from "../TitleSection/TitleSection";
+
+import "./ContactForm.scss";
+
+// Translate
+import "../../i18n";
+import { useTranslation } from "react-i18next";
 
 const CssTextField = styled(TextField)({
   "& label.Mui-focused": {
-    color: "white",
+    color: "#FAAF00",
   },
 
   "& .MuiInput-underline:after": {
-    borderBottomColor: "white",
-  },
-  "& .MuiOutlinedInput-root": {
-    "& fieldset": {
-      color: "red",
-    },
-    "&:hover fieldset": {
-      color: "yellow",
-    },
-    "&.Mui-focused fieldset": {
-      color: "green",
-    },
+    borderBottomColor: "#FAAF00",
   },
 });
 
 const ContactForm = () => {
+  const { t } = useTranslation();
   return (
-    <div style={{ margin: "50px" }}>
-      <Typography gutterBottom variant='h3' align='center' color='white'>
-        Nous contacter
-      </Typography>
-      <div style={{ marginTop: "20%" }}>
+    <div style={{ margin: "40px" }}>
+      <TitleSection title={t("contact_section.contactUs")} />
+      <div style={{ marginTop: "15%" }}>
         <form>
           <Grid container spacing={5}>
             <Grid xs={12} item>
               <CssTextField
-                placeholder='Enter name'
-                label='Name'
+                placeholder={t("contact_section.enter_name")}
+                label={t("contact_section.name")}
                 variant='standard'
                 fullWidth
                 required
-                color='error'
               />
             </Grid>
             <Grid item xs={12}>
-              <TextField
+              <CssTextField
                 type='email'
-                placeholder='Enter email'
-                label='Email'
+                placeholder={t("contact_section.enter_email")}
+                label={t("contact_section.email")}
                 variant='standard'
                 fullWidth
                 required
               />
             </Grid>
             <Grid item xs={12}>
-              <TextField
-                label='Message'
+              <CssTextField
+                label={t("contact_section.message")}
                 multiline
                 rows={8}
-                placeholder='Type your message here'
+                placeholder={t("contact_section.enter_message")}
                 variant='standard'
                 fullWidth
                 required
               />
             </Grid>
             <Grid item xs={12}>
-              <Button type='submit' variant='contained' color='primary'>
-                Submit
+              <Button
+                type='submit'
+                variant='contained'
+                className='submit-button'
+              >
+                {t("contact_section.submit")}
               </Button>
             </Grid>
           </Grid>

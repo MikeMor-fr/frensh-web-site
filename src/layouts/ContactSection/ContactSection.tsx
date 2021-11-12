@@ -1,7 +1,7 @@
 import ContactForm from "../../components/ContactForm/ContactForm";
-import "./MentionsLegalesSection.scss";
+import "./ContactSection.scss";
 
-const MentionsLegalesSection = () => {
+const ContactSection = () => {
   return (
     <div className='mentions-legales'>
       <ContactForm />
@@ -9,4 +9,4 @@ const MentionsLegalesSection = () => {
   );
 };
 
-export default MentionsLegalesSection;
+export default ContactSection;

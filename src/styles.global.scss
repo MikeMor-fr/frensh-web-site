@@ -2,6 +2,7 @@ $themeColor: #f7f7f7;
 $textColor: black;
 $blackColor: #212529;
 $redColor: #f44336;
+$yellowColor: #faaf00;
 
 @mixin transition {
   transition: 0.4s;
@@ -34,4 +35,5 @@ $redColor: #f44336;
   textColor: $textColor;
   blackColor: $blackColor;
   redColor: $redColor;
+  yellowColor: $yellowColor;
 }
