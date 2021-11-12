@@ -1,4 +1,5 @@
 import InfoCardLeft from "../components/InfoCardLeft/InfoCardLeft";
+import InfosCardRight from "../components/InfoCardRight/InfoCardRight";
 
 const image =
   "https://cdn.website.dish.co/media/63/16/2232039/FRENSH-68665602-934816463534390-4347051496815198208-o.jpg";
@@ -9,8 +10,9 @@ const description1 =
 
 const About = (): JSX.Element => {
   return (
-    <div style={{ marginTop: "100px" }}>
+    <div style={{ margin: "100px" }}>
       <InfoCardLeft title={title1} description={description1} image={image} />
+      <InfosCardRight title={title1} description={description1} image={image} />
     </div>
   );
 };
