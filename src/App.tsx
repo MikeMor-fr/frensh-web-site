@@ -8,8 +8,8 @@ import EndSection from "./layouts/EndSection/EndSection";
 function App() {
   return (
     <div className='App'>
-      <NavBar />
       <Router>
+        <NavBar />
         <Switch>
           <Route path='/about' component={About} />
           <Route path='/menus' component={Menus} />
