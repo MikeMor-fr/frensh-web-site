@@ -8,7 +8,7 @@ import EndSection from "./layouts/EndSection/EndSection";
 function App() {
   return (
     <div className='App'>
-      <Router basename={"https://mikemor-fr.github.io/frensh-web-site/"}>
+      <Router>
         <NavBar />
         <Switch>
           <Route path='/about' component={About} />
