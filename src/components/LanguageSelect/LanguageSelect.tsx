@@ -5,11 +5,8 @@ import MenuItem from "@mui/material/MenuItem";
 
 // Translate
 import i18n from "../../i18n";
-import { useTranslation } from "react-i18next";
 
 export default function LanguageSelect() {
-  const { t } = useTranslation();
-
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
   const handleClick = (event: React.MouseEvent<HTMLElement>) => {
