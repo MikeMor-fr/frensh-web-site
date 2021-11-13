@@ -1,6 +1,6 @@
 {
-  "name": "frensh-website",
-  "homepage": "https://mikemor-fr.github.io/frensh-web-site/",
+  "name": "frontend",
+  
   "version": "0.1.0",
   "private": true,
   "dependencies": {
