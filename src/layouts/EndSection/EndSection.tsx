@@ -19,7 +19,7 @@ const EndSection = () => {
   const { t } = useTranslation();
 
   return (
-    <div className='end-section'>
+    <div className='end-section' id='contacts'>
       <div
         style={{
           display: "flex",

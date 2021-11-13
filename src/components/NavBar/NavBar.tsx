@@ -148,7 +148,7 @@ export default function PersistentDrawerRight(): JSX.Element {
           <List>
             {["Acceuil", "Nos Menus", "A Propos", "Contacts"].map(
               (text, index) => (
-                <ListItem>
+                <ListItem key={index}>
                   <Button href='/' color='inherit'>
                     {text}
                   </Button>
@@ -181,8 +181,11 @@ export default function PersistentDrawerRight(): JSX.Element {
           <Button href='/menus' color='inherit'>
             Nos menus
           </Button>
-          <Button href='/about' color='inherit' sx={{ mr: 30 }}>
+          <Button href='/about' color='inherit'>
             A propos
+          </Button>
+          <Button href='#contacts' color='inherit' sx={{ mr: 30 }}>
+            Contacts
           </Button>
         </Toolbar>
       </AppBar>
