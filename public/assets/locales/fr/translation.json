@@ -75,14 +75,10 @@
     "address2": "06600 Antibes",
     "address3": "France"
   },
-  "contact_section": {
-    "contactUs": "Nous Contacter",
-    "name": "Nom",
-    "enter_name": "Renseignez votre nom",
-    "email": "Email",
-    "enter_email": "Renseignez votre email",
-    "message": "Message",
-    "enter_message":"Tapez votre message ici",
-    "submit": "Envoyer"
+  "end_section": {
+    "follow": "SUIVEZ-NOUS !",
+    "contact": "CONTACTS :",
+    "email": "frensh.antibes@gmail.com",
+    "phone": "+33493959620"
   }
 }
