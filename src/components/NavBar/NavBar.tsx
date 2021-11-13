@@ -168,7 +168,7 @@ export default function PersistentDrawerRight(): JSX.Element {
             edge='start'
             color='inherit'
             aria-label='menu'
-            sx={{ mr: 2 }}
+            sx={{ mr: 2, ml: 40 }}
           >
             <img src={logoImg} alt="fren'sh" />
           </IconButton>
@@ -181,7 +181,7 @@ export default function PersistentDrawerRight(): JSX.Element {
           <Button href='/menus' color='inherit'>
             Nos menus
           </Button>
-          <Button href='/about' color='inherit'>
+          <Button href='/about' color='inherit' sx={{ mr: 30 }}>
             A propos
           </Button>
         </Toolbar>
