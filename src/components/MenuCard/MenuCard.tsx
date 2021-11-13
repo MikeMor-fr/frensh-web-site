@@ -14,7 +14,7 @@ interface MenuCardProps {
 }
 
 const MenuCard = (props: MenuCardProps) => {
-  const { img, title, onClickEvent } = props;
+  const { title, onClickEvent } = props;
 
   const theme = useTheme();
   const mobileScreen = useMediaQuery(theme.breakpoints.down("md"));
@@ -23,11 +23,15 @@ const MenuCard = (props: MenuCardProps) => {
     return (
       <div className='menu-card'>
         <Card sx={{ maxWidth: 360 }} onClick={onClickEvent}>
-          <CardMedia component='img' image={img} alt='hamburger' />
+          <CardMedia
+            component='img'
+            image={
+              "https://th.bing.com/th/id/R.881df7be6ad606753dc3be6b81ab5ec9?rik=yIeh%2fBXQx77d8g&riu=http%3a%2f%2fbbqrules.de%2fwp-content%2fuploads%2f2018%2f08%2fNebraska.jpg&ehk=32Hx89oDOYFhoKqpbuaRCJuKwbV7BvVZCkqFQuNa8qc%3d&risl=&pid=ImgRaw&r=0"
+            }
+            alt='hamburger'
+          />
           <CardContent style={{ textAlign: "center" }}>
-            <Typography gutterBottom variant='h5' component='div'>
-              {title}
-            </Typography>
+            <Typography variant='h5'>{title}</Typography>
           </CardContent>
         </Card>
       </div>
@@ -36,7 +40,13 @@ const MenuCard = (props: MenuCardProps) => {
     return (
       <div style={{ width: "70%" }}>
         <div className='overlay-image menu-card' onClick={onClickEvent}>
-          <img className='image' src={img} alt='Alt text' />
+          <img
+            className='image'
+            src={
+              "https://th.bing.com/th/id/R.881df7be6ad606753dc3be6b81ab5ec9?rik=yIeh%2fBXQx77d8g&riu=http%3a%2f%2fbbqrules.de%2fwp-content%2fuploads%2f2018%2f08%2fNebraska.jpg&ehk=32Hx89oDOYFhoKqpbuaRCJuKwbV7BvVZCkqFQuNa8qc%3d&risl=&pid=ImgRaw&r=0"
+            }
+            alt='Alt text'
+          />
           <div className='normal'>
             <div className='text'></div>
           </div>

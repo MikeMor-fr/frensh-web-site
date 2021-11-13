@@ -50,11 +50,11 @@ const MenusSection = (): JSX.Element => {
   };
   return (
     <div className='menu-section-container'>
-      <TitleSection title={"Nos Menus"} />
+      <TitleSection title={t("menus_section.title")} />
 
       <Grid container spacing={5}>
         {menus.map((menu, index) => (
-          <Grid item xs={6} md={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <div
               style={{
                 display: "flex",

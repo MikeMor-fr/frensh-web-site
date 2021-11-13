@@ -1,4 +1,10 @@
 {
+  "navbar_section": {
+    "home": "Acceuil",
+    "menus": "Nos menus",
+    "about": "A propos",
+    "contacts": "Contacts"
+  },
   "welcome_section": {
     "title": "FREN'SH",
     "subtitle": "Toute l'équipe vous souhaite la bienvenue"

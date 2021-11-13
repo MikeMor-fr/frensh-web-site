@@ -2,6 +2,7 @@ import * as React from "react";
 import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
+import TranslateIcon from "@mui/icons-material/Translate";
 
 // Translate
 import i18n from "../../i18n";
@@ -30,7 +31,7 @@ export default function LanguageSelect() {
         aria-expanded={open ? "true" : undefined}
         onClick={handleClick}
       >
-        Langue
+        <TranslateIcon />
       </Button>
       <Menu
         id='demo-positioned-menu'

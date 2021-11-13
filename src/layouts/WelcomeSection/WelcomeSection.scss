@@ -1,3 +1,5 @@
+@import "../../styles.global.scss";
+
 .section-one {
   height: 100vh;
   background-size: cover;
@@ -12,6 +14,15 @@
   justify-content: center;
   align-items: center;
   padding: 40px;
+  color: white;
+}
+
+.welcome-title {
+  text-align: center;
+  background-color: $blackColor;
+  opacity: 0.7;
+  padding: 20px;
+  border-radius: $borderRadius;
 }
 
 @media (min-width: 650px) {

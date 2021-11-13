@@ -15,10 +15,15 @@ import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import ListItem from "@mui/material/ListItem";
 import { Button } from "@mui/material";
 import useMediaQuery from "@mui/material/useMediaQuery";
+import { useHistory } from "react-router-dom";
 
 import "./NavBar.scss";
 import logoImg from "../../assets/frensh_logo.jpg";
 import LanguageSelect from "../LanguageSelect/LanguageSelect";
+
+// Translate
+import "../../i18n";
+import { useTranslation } from "react-i18next";
 
 const drawerWidth = 240;
 
@@ -85,7 +90,29 @@ export default function PersistentDrawerRight(): JSX.Element {
     setOpen(false);
   };
 
+  let history = useHistory();
+  const handleNavigation = (route: string) => {
+    history.push(route);
+  };
+
   const mobileScreen = useMediaQuery(theme.breakpoints.down("md"));
+
+  const { t } = useTranslation();
+
+  const listItems = [
+    {
+      title: t("navbar_section.home"),
+      url: "/",
+    },
+    {
+      title: t("navbar_section.menus"),
+      url: "/menus",
+    },
+    {
+      title: t("navbar_section.about"),
+      url: "/about",
+    },
+  ];
 
   if (mobileScreen) {
     return (
@@ -99,6 +126,7 @@ export default function PersistentDrawerRight(): JSX.Element {
               color='inherit'
               aria-label='menu'
               sx={{ mr: 2 }}
+              onClick={() => handleNavigation("/")}
             >
               <img src={logoImg} alt="fren'sh" />
             </IconButton>
@@ -107,8 +135,9 @@ export default function PersistentDrawerRight(): JSX.Element {
               noWrap
               sx={{ flexGrow: 1 }}
               component='div'
+              onClick={() => handleNavigation("/")}
             >
-              FREN'SH
+              {t("welcome_section.title")}
             </Typography>
             <IconButton
               color='inherit'
@@ -147,15 +176,24 @@ export default function PersistentDrawerRight(): JSX.Element {
           </DrawerHeader>
           <Divider />
           <List>
-            {["Acceuil", "Nos Menus", "A Propos", "Contacts"].map(
-              (text, index) => (
-                <ListItem key={index}>
-                  <Button href='/' color='inherit'>
-                    {text}
-                  </Button>
-                </ListItem>
-              )
-            )}
+            {listItems.map((listItem, index) => (
+              <ListItem key={index}>
+                <Button
+                  onClick={() => handleNavigation(listItem.url)}
+                  color='inherit'
+                >
+                  {listItem.title}
+                </Button>
+              </ListItem>
+            ))}
+            <ListItem>
+              <Button href='#contacts' color='inherit'>
+                {t("navbar_section.contacts")},
+              </Button>
+            </ListItem>
+            <ListItem>
+              <LanguageSelect />
+            </ListItem>
           </List>
         </Drawer>
       </Box>
@@ -170,23 +208,29 @@ export default function PersistentDrawerRight(): JSX.Element {
             color='inherit'
             aria-label='menu'
             sx={{ mr: 2, ml: 40 }}
+            onClick={() => handleNavigation("/")}
           >
             <img src={logoImg} alt="fren'sh" />
           </IconButton>
-          <Typography variant='h6' component='div' sx={{ flexGrow: 1 }}>
-            FREN'SH
+          <Typography
+            variant='h6'
+            component='div'
+            sx={{ flexGrow: 1 }}
+            onClick={() => handleNavigation("/")}
+          >
+            {t("welcome_section.title")}
           </Typography>
-          <Button href='/' color='inherit'>
-            Acceuil
+          <Button onClick={() => handleNavigation("/")} color='inherit'>
+            {t("navbar_section.home")}
           </Button>
-          <Button href='/menus' color='inherit'>
-            Nos menus
+          <Button onClick={() => handleNavigation("/menus")} color='inherit'>
+            {t("navbar_section.menus")}
           </Button>
-          <Button href='/about' color='inherit'>
-            A propos
+          <Button onClick={() => handleNavigation("/about")} color='inherit'>
+            {t("navbar_section.about")}
           </Button>
           <Button href='#contacts' color='inherit'>
-            Contacts
+            {t("navbar_section.contacts")}
           </Button>
           <LanguageSelect />
         </Toolbar>

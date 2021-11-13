@@ -3,14 +3,14 @@ import InfoCardRight from "../../components/InfoCardRight/InfoCardRight";
 import InfoCardLeft from "../../components/InfoCardLeft/InfoCardLeft";
 
 // Images
-import soirée from "../../assets/soirée.jpg";
+import test from "../../assets/Sans titre.png";
 
 // Translate
 import "../../i18n";
 import { useTranslation } from "react-i18next";
 
 const image2 =
-  "https://mfacdn.cachefly.net/chooseveg/sites/2/2018/11/Fun-Vegan-Appetizers.jpg";
+  "https://dqzrr9k4bjpzk.cloudfront.net/images/14151233/1124542377.jpg";
 const image3 =
   "https://mfacdn.cachefly.net/chooseveg/sites/2/2018/11/Fun-Vegan-Appetizers.jpg";
 
@@ -21,7 +21,7 @@ const InfosSection = (): JSX.Element => {
       <InfoCardRight
         title={t("infos_section.first.title")}
         description={t("infos_section.first.subtitle")}
-        image={soirée}
+        image={test}
       />
       <br />
       <InfoCardLeft

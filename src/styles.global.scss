@@ -3,6 +3,7 @@ $textColor: black;
 $blackColor: #212529;
 $redColor: #f44336;
 $yellowColor: #faaf00;
+$borderRadius: 3px;
 
 @mixin transition {
   transition: 0.4s;
@@ -36,4 +37,5 @@ $yellowColor: #faaf00;
   blackColor: $blackColor;
   redColor: $redColor;
   yellowColor: $yellowColor;
+  borderRadius: $borderRadius;
 }
