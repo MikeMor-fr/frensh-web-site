@@ -1,0 +1,84 @@
+{
+  "welcome_section": {
+    "title": "FREN'SH",
+    "subtitle": "Toute l'équipe vous souhaite la bienvenue"
+  },
+  "menus_section": {
+    "title": "Nos Menus",
+    "burgers": "Nos Burgers",
+    "salades": "Nos Salades",
+    "frites": "Nos Frites",
+    "assiettes": "Nos Asiettes",
+    "hot_dogs": "Nos Hot-Dogs",
+    "sandwiches": "Nos Sandwiches"
+  },
+  "intro_section": {
+    "title": "Restauration rapide spécialisée dans les hamburgers maisons.",
+    "subtitle": "Si vous souhaitez passer une bonne soirée avec vos proches autour de plats français, notre restaurant est l’endroit idéal !"
+  },
+  "infos_section": {
+    "first": {
+      "title": "Restaurant français sympathique situé dans un coin romantique",
+      "subtitle": "La cuisine française vous gâtera avec son exclusive variété de délices culinaires. L’excellente restauration rapide et les excellents plats du terroir feront plaisir à tout le monde. Goûtez par exemple à notre assortiment de burgers plébiscité ou à nos sandwichs. Goûtez aussi volontiers une tasse de café, un bon verre de vin, une boisson fraîche, un verre de bière rafraîchissant ou un thé chaud lorsque vous viendrez nous voir. Laissez-vous séduire le temps d’une pause au dessert par nos pains frais ou par notre crème glacée savoureuse. L’accueil est notre passion. Venez pour le déjeuner et passez un moment magique dans notre établissement. Un espace fumeur est réservé aux amateurs de tabac."
+    },
+    "second": {
+      "title": "Régimes et alimentation spéciale",
+      "subtitle": "Essayez notre cuisine végétarienne et végane. Nous voulons vous aider à faire attention à votre santé et vous sensibiliser à l’importance d’une alimentation saine et gourmande."
+    },
+    "third": {
+      "title": "Places de parking particulièrement pratiques",
+      "subtitle": "Nous avons des places de parking sans frais pour nos clients. Il est important pour nous que nous puissions accueillir tout le monde. Nous avons par conséquent un accès facile. Vous pouvez amener vos animaux de compagnie dans notre restaurant. Passez nous voir pendant nos horaires d’ouverture. Nous nous ferons un plaisir de vous accueillir ! Le paiement par tickets repas est accepté. Vous avez toujours la possibilité de payer en espèces. Vous n’avez pas le temps ? Alors commandez tout bonnement votre repas à emporter. Notre établissement est également disponible pour votre fête privée. N’hésitez pas à nous contacter et nous vous trouverons une date convenable. Nous sommes ouverts tous les jours de 11h00 à 19h00."
+    }
+  },
+  "review_section": {
+    "title": "Ce que disent les Fren'sh",
+    "review_1": {
+      "review": "Facile d’accès, grand parking de plage à côté, des burgers réalisés sur commande, frais. Tarifs corrects, personnel sympathique… et une grande terrasse ! Impec une bonne adresse de plage",
+      "name": "Stéphane TALBOT"
+    },
+    "review_2": {
+      "review": "Très bon veggie burger et frites aux oignons, avec une vue imprenable !",
+      "name": "Oxy Flax"
+    },
+    "review_3": {
+      "review": "Endroit super agréable ...différents choix de hamburgers..😀pour passer un bon moment de détente face à la mer je conseille 👍👍Mélisse et Gaby super😊",
+      "name": "bernard neo"
+    },
+    "review_4": {
+      "review": "Des jeunes qui font ça comme on aime. Salades copieuses, burgers savoureux, frites cuites à la perfection. Tout ça à des prix très abordables. Et dans un cadre sympa et ombragé.",
+      "name": "Matthieu Fourage"
+    },
+    "review_5": {
+      "review": "Un snack bien sympa sur la plage de la Siesta ..Acceuil chaleureux !! Produits de qualité !!  Prix sympas !! Adresse à retenir !!",
+      "name": "Gilles A"
+    },
+    "review_6": {
+      "review": "Excellent snack très très bon ! Rapport qualité prix c'est les meilleurs ! Bravo",
+      "name": "Prestige Car Services"
+    }
+  },
+  "hours_section": {
+    "title": "Infos Pratiques",
+    "hours": "Horaires d'ouverture",
+    "monday": "Lundi",
+    "tuesday": "Mardi",
+    "wednesday": "Mercredi",
+    "thursday": "Jeudi",
+    "friday": "Vendredi",
+    "saturday": "Samedi",
+    "sunday": "Dimanche"
+  },
+  "address_section": {
+    "address": "Adresse",
+    "button": "Itinéraire",
+    "address1": "2000 Route du Bord de Mer",
+    "address2": "06600 Antibes",
+    "address3": "France"
+  },
+  "end_section": {
+    "follow": "SUIVEZ-NOUS !",
+    "contact": "CONTACTS :",
+    "email": "frensh.antibes@gmail.com",
+    "phone": "+33493959620"
+  }
+}
