@@ -1,6 +1,84 @@
 {
-  "app_title": "Title",
-  "language": "Language",
-  "welcome_message": "Welcome",
-  "days_since_release": "it's been {{number_of_days}} days since this video was released"
+  "welcome_section": {
+    "title": "FREN'SH",
+    "subtitle": "The whole team welcomes you"
+  },
+  "menus_section": {
+    "title": "Our Menus",
+    "burgers": "Our Burgers",
+    "salades": "Our Salads",
+    "frites": "Our Fren'sh fries",
+    "assiettes": "Our Dishes",
+    "hot_dogs": "Our Hot-Dogs",
+    "sandwiches": "Our Sandwiches"
+  },
+  "intro_section": {
+    "title": "Fast food specializing in homemade burgers.",
+    "subtitle": "If you want to spend a good evening with your loved ones around French dishes, our restaurant is the ideal place!"
+  },
+  "infos_section": {
+    "first": {
+      "title": "Friendly French restaurant located in a romantic corner",
+      "subtitle": "French cuisine will spoil you with its exclusive variety of culinary delights. The excellent fast food and the excellent local dishes will please everyone. For example, try our popular burger assortment or sandwiches. Also enjoy a cup of coffee, a good glass of wine, a cool drink, a refreshing glass of beer or a hot tea when you come to see us. Let yourself be seduced for a break for dessert with our fresh breads or our tasty ice cream. Hospitality is our passion. Come for lunch and spend a magical moment in our establishment. A smoking area is reserved for tobacco lovers."
+    },
+    "second": {
+      "title": "Diets and special diet",
+      "subtitle": "Try our vegetarian and vegan cuisine. We want to help you pay attention to your health and make you aware of the importance of a healthy and gourmet diet."
+    },
+    "third": {
+      "title": "Particularly convenient parking spaces",
+      "subtitle": "We have free parking spaces for our guests. It is important to us that we can welcome everyone. We therefore have easy access. You can bring your pets to our restaurant. Come see us during our opening hours. We will be happy to welcome you! Payment by meal tickets is accepted. You always have the option to pay in cash. Don't have time? So simply order your takeaway meal. Our property is also available for your private party. Do not hesitate to contact us and we will find you a suitable date. We are open every day from 11AM to 7PM."
+    }
+  },
+  "review_section": {
+    "title": "What the Fren'sh say",
+    "review_1": {
+      "review": "Easy to access, large beach parking next door, burgers made to order, fresh. Decent rates, friendly staff... and a large terrace! Impec a good beach address",
+      "name": "Stéphane TALBOT"
+    },
+    "review_2": {
+      "review": "Very good veggie burger and onion fries, with stunning views!",
+      "name": "Oxy Flax"
+    },
+    "review_3": {
+      "review": "Super nice place... different choices of burgers.. 😀to have a good relaxing time facing the sea I recommend 👍👍Mélisse and Gaby super😊",
+      "name": "bernard neo"
+    },
+    "review_4": {
+      "review": "Young people who do it the way we like. Hearty salads, tasty burgers, fries cooked to perfection. All this at very affordable prices. And in a nice and shady setting.",
+      "name": "Matthieu Fourage"
+    },
+    "review_5": {
+      "review": "A very nice snack on the beach of Siesta .. Warm welcome !! Quality products !!  Nice prices!! Address to remember !!",
+      "name": "Gilles A"
+    },
+    "review_6": {
+      "review": "Excellent snack very very good! Value for money it is the best! Well done",
+      "name": "Prestige Car Services"
+    }
+  },
+  "hours_section": {
+    "title": "Practical Information",
+    "hours": "Opening hours",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  },
+  "address_section": {
+    "address": "Address",
+    "button": "Itinerary",
+    "address1": "2000 Route du Bord de Mer",
+    "address2": "06600 Antibes",
+    "address3": "France"
+  },
+  "end_section": {
+    "follow": "FOLLOW US !",
+    "contact": "CONTACTS :",
+    "email": "frensh.antibes@gmail.com",
+    "phone": "+33493959620"
+  }
 }

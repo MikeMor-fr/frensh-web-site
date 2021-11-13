@@ -18,6 +18,7 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 
 import "./NavBar.scss";
 import logoImg from "../../assets/frensh_logo.jpg";
+import LanguageSelect from "../LanguageSelect/LanguageSelect";
 
 const drawerWidth = 240;
 
@@ -184,9 +185,10 @@ export default function PersistentDrawerRight(): JSX.Element {
           <Button href='/about' color='inherit'>
             A propos
           </Button>
-          <Button href='#contacts' color='inherit' sx={{ mr: 30 }}>
+          <Button href='#contacts' color='inherit'>
             Contacts
           </Button>
+          <LanguageSelect />
         </Toolbar>
       </AppBar>
     );
