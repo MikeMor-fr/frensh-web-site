@@ -45,8 +45,8 @@ const MenusSection = (): JSX.Element => {
     }
   };
 
-  const handleClick = () => {
-    history.push("/menus");
+  const handleClick = (path: number) => {
+    history.push(`/menus/${path}`);
   };
   return (
     <div className='menu-section-container'>
@@ -66,7 +66,7 @@ const MenusSection = (): JSX.Element => {
               <MenuCard
                 img='https://cdn.website.dish.co/media/56/cd/2232074/FRENSH-66726982-906958886320148-1660964067835117568-n.jpg'
                 title={menu}
-                onClickEvent={handleClick}
+                onClickEvent={() => handleClick(index)}
               />
             </div>
           </Grid>
