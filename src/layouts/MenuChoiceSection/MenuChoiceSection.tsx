@@ -1,5 +1,4 @@
 import { Grid } from "@mui/material";
-import TitleSection from "../../components/TitleSection/TitleSection";
 import MenuChoice from "../../components/MenuChoice/MenuChoice";
 
 import useMediaQuery from "@mui/material/useMediaQuery";
@@ -35,8 +34,6 @@ const MenuChoiceSection = (props: MenuChoiceSectionProps) => {
   };
   return (
     <div className='review-section'>
-      <TitleSection title={t("review_section.title")} />
-
       <div style={{ margin: "100px" }}>
         <Grid container spacing={5}>
           {menuChoice.map((menu, index) => (

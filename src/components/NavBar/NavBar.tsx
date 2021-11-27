@@ -20,6 +20,7 @@ import { useHistory } from "react-router-dom";
 import "./NavBar.scss";
 import logoImg from "../../assets/frensh_logo.jpg";
 import LanguageSelect from "../LanguageSelect/LanguageSelect";
+import MenuBarOptions from "../MenuBarOptions/MenuBarOptions";
 
 // Translate
 import "../../i18n";
@@ -187,6 +188,9 @@ export default function PersistentDrawerRight(): JSX.Element {
               </ListItem>
             ))}
             <ListItem>
+              <MenuBarOptions />
+            </ListItem>
+            <ListItem>
               <Button href='#contacts' color='inherit'>
                 {t("navbar_section.contacts")},
               </Button>
@@ -223,9 +227,7 @@ export default function PersistentDrawerRight(): JSX.Element {
           <Button onClick={() => handleNavigation("/")} color='inherit'>
             {t("navbar_section.home")}
           </Button>
-          <Button onClick={() => handleNavigation("/menus")} color='inherit'>
-            {t("navbar_section.menus")}
-          </Button>
+          <MenuBarOptions />
           <Button onClick={() => handleNavigation("/about")} color='inherit'>
             {t("navbar_section.about")}
           </Button>
