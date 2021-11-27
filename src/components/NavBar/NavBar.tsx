@@ -106,10 +106,6 @@ export default function PersistentDrawerRight(): JSX.Element {
       url: "/",
     },
     {
-      title: t("navbar_section.menus"),
-      url: "/menus",
-    },
-    {
       title: t("navbar_section.about"),
       url: "/about",
     },

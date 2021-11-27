@@ -1,39 +1,29 @@
 import { Avatar } from "@mui/material";
-import { red } from "@mui/material/colors";
 import { MenuChoiceProps } from "../../menus/menus";
 import "./MenuChoice.scss";
+
+import useMediaQuery from "@mui/material/useMediaQuery";
+import { useTheme } from "@mui/material/styles";
 
 const MenuChoice = (props: MenuChoiceProps) => {
   const { name, price, ingredients, img } = props;
 
-  const avatar = (): JSX.Element => {
-    if (img) {
-      return (
-        <Avatar
-          alt={name}
-          src={img}
-          sx={{ width: "100%", height: "100%" }}
-          variant='rounded'
-        />
-      );
-    } else {
-      return (
-        <Avatar
-          sx={{ bgcolor: red[500] }}
-          aria-label='recipe'
-          variant='rounded'
-        >
-          {name[0]}
-        </Avatar>
-      );
-    }
-  };
+  const theme = useTheme();
+  const mobileScreen = useMediaQuery(theme.breakpoints.down("md"));
 
   return (
-    <div className='menu-choice'>
-      <div>{avatar()}</div>
-
-      <div className='menu-choice-info'>
+    <div className={mobileScreen ? "menu-choice-mobile" : "menu-choice"}>
+      <Avatar
+        alt={name}
+        src={img}
+        sx={{ width: 200, height: 200 }}
+        variant='rounded'
+      />
+      <div
+        className={
+          mobileScreen ? "menu-choice-info-mobile" : "menu-choice-info"
+        }
+      >
         <h2>{name}</h2>
         <p className='ingredient'>{ingredients}</p>
         <p className='price'>{price} €</p>

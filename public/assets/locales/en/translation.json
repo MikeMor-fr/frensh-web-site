@@ -86,5 +86,141 @@
     "contact": "CONTACTS :",
     "email": "frensh.antibes@gmail.com",
     "phone": "+33493959620"
+  },
+  "menus_info": {
+    "burgers": {
+      "bacon": {
+        "title": "Bacon Cheeseburger",
+        "ingredients": "Salad, Tomato, Onion, Chopped Steak, Cheddar, Bacon, Homemade Sauce",
+        "price": "6,00"
+      },
+      "india": {
+        "title": "India Burger",
+        "ingredients": "Salad, Tomato, Onion, Chicken curry",
+        "price": "6,50"
+      },
+      "provencal": {
+        "title": "Provençal Burger",
+        "ingredients": "Salad, Onion, Chopped steak, Cheddar, Eggplant, Zucchini, Pepper, Dried tomato, Grana Padana, Olive oil, Garlic, Basil",
+        "price": "6,50"
+      },
+      "hamburger": {
+        "title": "Hamburger",
+        "ingredients": "Salad, Tomato, Onion, Chopped steak, Homemade sauce",
+        "price": "4,50"
+      },
+      "cheese": {
+        "title": "Cheeseburger",
+        "ingredients": "Salad, Tomato, Onion, Chopped Steak, Cheddar, Homemade Sauce",
+        "price": "5,00"
+      },
+      "vegi": {
+        "title": "Vegi Burger",
+        "ingredients": "Salad, Onion, Eggplant, Zucchini, Pepper, Dried tomato, Olive oil, Garlic, Basil",
+        "price": "6,00"
+      },
+      "plain": {
+        "title": "Plain Burger",
+        "ingredients": "Chopped steak",
+        "price": "3,50"
+      }
+    },
+    "salads": {
+      "petite": {
+        "title": "The Little Salad",
+        "ingredients": "Salad, Tomato, Onion, Olives, Dressing, Olive oil, Garlic, Basil",
+        "price": "6,00"
+      },
+      "poulette": {
+        "title": "The pullet",
+        "ingredients": "Salad, Tomato, Chicken, Garlic Croutons, Emmental, Cebettes, Egg, Olives, Vinaigrette, Olive Oil, Garlic, Basil",
+        "price": "10,00"
+      },
+      "nicoise": {
+        "title": "The Niçoise",
+        "ingredients": "Salad, Tomato, Onion, Pepper, Beans, Cebettes, Radish, Tuna, Egg, Olives, Anchovies, Vinaigrette, Olive oil, Garlic, Basil",
+        "price": "6,00"
+      }
+    },
+    "frites": {
+      "barquette": {
+        "title": "The Tray 375g",
+        "ingredients": "",
+        "price": "3,50"
+      },
+      "oignons": {
+        "title": "Onion Fries",
+        "ingredients": "",
+        "price": "4,50"
+      }
+    },
+    "assiettes": {
+      "steack-frites": {
+        "title": "Steak'n Fries",
+        "ingredients": "Salad, Tomato, Onion, 2 x Chopped Steackk, French Fries",
+        "price": "11,00"
+      },
+      "saucisses-frites": {
+        "title": "Sausages'n Fries",
+        "ingredients": "2 x Sausages, French Fries",
+        "price": "10,00"
+      }
+    },
+    "hotdog": {
+      "classique": {
+        "title": "The Classic",
+        "ingredients": "",
+        "price": "3,50"
+      },
+      "oignon": {
+        "title": "The Onion",
+        "ingredients": "",
+        "price": "4,50"
+      }
+      ,
+      "cheese": {
+        "title": "The Cheesy",
+        "ingredients": "",
+        "price": "4,50"
+      }
+      ,
+      "double": {
+        "title": "The Double",
+        "ingredients": "",
+        "price": "6,50"
+      }
+    },
+    "sandwiches": {
+      "jambon": {
+        "title": "Ham",
+        "ingredients": "Salads, Ham",
+        "price": "3,50"
+      },
+      "emmental": {
+        "title": "Emmental",
+        "ingredients": "Salads, Emmental",
+        "price": "3,50"
+      },
+      "mixte": {
+        "title": "Mixte",
+        "ingredients": "Salads, Ham, Emmental",
+        "price": "5,50"
+      },
+      "club-jambon": {
+        "title": "Ham Club",
+        "ingredients": "Salad, Tomato, Ham, Emmental",
+        "price": "6,50"
+      },
+      "club-poulet": {
+        "title": "Chicken Club",
+        "ingredients": "Salad, Tomato, Chicken, Egg, Olives",
+        "price": "7,00"
+      },
+      "thon": {
+        "title": "Tuna",
+        "ingredients": "Salad, Tomato, Tuna, Egg, Olives",
+        "price": "7,00"
+      }
+    }
   }
 }

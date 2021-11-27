@@ -6,10 +6,6 @@ import { useTheme } from "@mui/material/styles";
 
 import "./MenuChoiceSection.scss";
 
-// Translate
-import "../../i18n";
-import { useTranslation } from "react-i18next";
-
 import { MenuChoiceProps } from "../../menus/menus";
 
 interface MenuChoiceSectionProps {
@@ -17,7 +13,6 @@ interface MenuChoiceSectionProps {
 }
 
 const MenuChoiceSection = (props: MenuChoiceSectionProps) => {
-  const { t } = useTranslation();
   const { menuChoice } = props;
 
   const theme = useTheme();
@@ -33,11 +28,11 @@ const MenuChoiceSection = (props: MenuChoiceSectionProps) => {
     }
   };
   return (
-    <div className='review-section'>
+    <div className='menu-choice-section'>
       <div style={{ margin: "100px" }}>
-        <Grid container spacing={5}>
+        <Grid container spacing={10}>
           {menuChoice.map((menu, index) => (
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={6} key={index}>
               <div
                 style={{
                   display: "flex",

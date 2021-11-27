@@ -5,14 +5,14 @@ import "../i18n";
 import { useTranslation } from "react-i18next";
 import MenuPageComponent from "./MenuPageComponent";
 
-const Burgers = () => {
+const HotDog = () => {
   const { t } = useTranslation();
   return (
     <MenuPageComponent
-      title={t("menus_section.burgers")}
-      menuChoice={menus().burgers}
+      title={t("menus_section.hot_dogs")}
+      menuChoice={menus().hotdog}
     />
   );
 };
 
-export default Burgers;
+export default HotDog;

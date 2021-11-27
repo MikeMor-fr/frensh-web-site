@@ -86,5 +86,141 @@
     "contact": "CONTACTS :",
     "email": "frensh.antibes@gmail.com",
     "phone": "+33493959620"
+  },
+  "menus_info": {
+    "burgers": {
+      "bacon": {
+        "title": "Bacon Cheeseburger",
+        "ingredients": "Salade, Tomate, Oignon, Steack haché, Cheddar, Bacon, Sauce Maison",
+        "price": "6,00"
+      },
+      "india": {
+        "title": "India Burger",
+        "ingredients": "Salade, Tomate, Oignon, Poulet curry",
+        "price": "6,50"
+      },
+      "provencal": {
+        "title": "Provençal Burger",
+        "ingredients": "Salade, Oignon, Steack haché, Cheddar, Aubergine, Courgette, Poivron, Tomate séchée, Grana Padana, Huile d'olive, Ail, Basilic",
+        "price": "6,50"
+      },
+      "hamburger": {
+        "title": "Hamburger",
+        "ingredients": "Salade, Tomate, Oignon, Steack haché, Sauce Maison",
+        "price": "4,50"
+      },
+      "cheese": {
+        "title": "Cheeseburger",
+        "ingredients": "Salade, Tomate, Oignon, Steack haché, Cheddar, Sauce Maison",
+        "price": "5,00"
+      },
+      "vegi": {
+        "title": "Vegi Burger",
+        "ingredients": "Salade, Oignon, Aubergine, Courgette, Poivron, Tomate séchée, Huile d'olive, Ail, Basilic",
+        "price": "6,00"
+      },
+      "plain": {
+        "title": "Plain Burger",
+        "ingredients": "Steack haché",
+        "price": "3,50"
+      }
+    },
+    "salads": {
+      "petite": {
+        "title": "La Petite Salade",
+        "ingredients": "Salade, Tomate, Oignon, Olives, Vinaigrette, Huile d'olive, Ail, Basilic",
+        "price": "6,00"
+      },
+      "poulette": {
+        "title": "La Poulette",
+        "ingredients": "Salade, Tomate, Poulet, Croûtons à l'ail, Dès d'emmental, Cébettes, Oeuf, Olives, Vinaigrette, Huile d'olive, Ail, Basilic",
+        "price": "10,00"
+      },
+      "nicoise": {
+        "title": "La Niçoise",
+        "ingredients": "Salade, Tomate, Oignon, Poivron, Fèvettes, Cébettes, Radis, Thon, Oeuf, Olives, Anchois, Vinaigrette, Huile d'olive, Ail, Basilic",
+        "price": "6,00"
+      }
+    },
+    "frites": {
+      "barquette": {
+        "title": "La Barquettes 375g",
+        "ingredients": "",
+        "price": "3,50"
+      },
+      "oignons": {
+        "title": "La Frites aux oignons",
+        "ingredients": "",
+        "price": "4,50"
+      }
+    },
+    "assiettes": {
+      "steack-frites": {
+        "title": "Steack Frites",
+        "ingredients": "Salade, Tomate, Oignon, 2 x Steack haché, Frites",
+        "price": "11,00"
+      },
+      "saucisses-frites": {
+        "title": "Saucisses Frites",
+        "ingredients": "2 x Saucisses, Frites",
+        "price": "10,00"
+      }
+    },
+    "hotdog": {
+      "classique": {
+        "title": "Le Classique",
+        "ingredients": "",
+        "price": "3,50"
+      },
+      "oignon": {
+        "title": "L'Oignon",
+        "ingredients": "",
+        "price": "4,50"
+      }
+      ,
+      "cheese": {
+        "title": "Le Cheesy",
+        "ingredients": "",
+        "price": "4,50"
+      }
+      ,
+      "double": {
+        "title": "Le Double",
+        "ingredients": "",
+        "price": "6,50"
+      }
+    },
+    "sandwiches": {
+      "jambon": {
+        "title": "Jambon",
+        "ingredients": "Salade, Jambon",
+        "price": "3,50"
+      },
+      "emmental": {
+        "title": "Emmental",
+        "ingredients": "Salade, Emmental",
+        "price": "3,50"
+      },
+      "mixte": {
+        "title": "Mixte",
+        "ingredients": "Salade, Jambon, Emmental",
+        "price": "5,50"
+      },
+      "club-jambon": {
+        "title": "Club Jambon",
+        "ingredients": "Salade, Tomate, Jambon, Emmental",
+        "price": "6,50"
+      },
+      "club-poulet": {
+        "title": "Club Poulet",
+        "ingredients": "Salade, Tomate, Poulet, Oeuf, Olives",
+        "price": "7,00"
+      },
+      "thon": {
+        "title": "Thon",
+        "ingredients": "Salade, Tomate, Thon, Oeuf, Olives",
+        "price": "7,00"
+      }
+    }
   }
 }

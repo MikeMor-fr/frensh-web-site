@@ -99,7 +99,11 @@ export default function MenuBarOptions() {
         onClose={() => setAnchorEl(null)}
       >
         {menus.map((menu, index) => (
-          <MenuItem onClick={() => handleClose(index)} disableRipple>
+          <MenuItem
+            onClick={() => handleClose(index)}
+            disableRipple
+            key={index}
+          >
             {menu}
           </MenuItem>
         ))}
