@@ -1,6 +1,8 @@
 import "./WelcomeSection.scss";
+// Animation
+import { motion } from "framer-motion";
 
-// tr anslation
+// translation
 import { useTranslation } from "react-i18next";
 import "../../i18n";
 import { VideoBackground } from "../../components/VideoBackground/VideoBackground";
@@ -13,8 +15,14 @@ const WelcomeSection = () => {
       <VideoBackground />
       <div className='section-one-content'>
         <div className='welcome-title'>
-          <h1>{t("welcome_section.title")}</h1>
-          <h2>{t("welcome_section.subtitle")}</h2>
+          <motion.div
+            initial={{ x: "-100vh" }}
+            animate={{ x: 0 }}
+            transition={{ type: "spring", duration: 1, bounce: 0.3 }}
+          >
+            <h1>{t("welcome_section.title")}</h1>
+            <h2>{t("welcome_section.subtitle")}</h2>
+          </motion.div>
         </div>
       </div>
     </div>
