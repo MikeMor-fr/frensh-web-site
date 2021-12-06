@@ -7,6 +7,7 @@ import { useTranslation } from "react-i18next";
 
 const IntroSection = () => {
   const { t } = useTranslation();
+
   return (
     <div className='intro-section'>
       <TitleSection title={t("intro_section.title")} />

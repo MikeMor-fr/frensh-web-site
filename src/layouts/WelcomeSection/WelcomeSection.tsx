@@ -16,9 +16,9 @@ const WelcomeSection = () => {
       <div className='section-one-content'>
         <div className='welcome-title'>
           <motion.div
-            initial={{ x: "-100vh" }}
-            animate={{ x: 0 }}
-            transition={{ type: "spring", duration: 1, bounce: 0.3 }}
+            initial={{ y: "20vh", opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ type: "spring", duration: 2, bounce: 0.3 }}
           >
             <h1>{t("welcome_section.title")}</h1>
             <h2>{t("welcome_section.subtitle")}</h2>

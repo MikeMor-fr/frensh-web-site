@@ -7,6 +7,7 @@ import { useTheme } from "@mui/material/styles";
 import "./MenuChoiceSection.scss";
 
 import { MenuChoiceProps } from "../../menus/menus";
+import { motion } from "framer-motion";
 
 interface MenuChoiceSectionProps {
   menuChoice: MenuChoiceProps[];
@@ -29,27 +30,37 @@ const MenuChoiceSection = (props: MenuChoiceSectionProps) => {
   };
   return (
     <div className='menu-choice-section'>
-      <div style={{ margin: "100px" }}>
-        <Grid container spacing={10}>
-          {menuChoice.map((menu, index) => (
-            <Grid item xs={12} md={6} key={index}>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: justifyContente(index),
-                }}
-              >
-                <MenuChoice
-                  name={menu.name}
-                  ingredients={menu.ingredients}
-                  price={menu.price}
-                  img={menu.img}
-                />
-              </div>
-            </Grid>
-          ))}
-        </Grid>
-      </div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{
+          opacity: 1,
+          transition: {
+            duration: 1,
+          },
+        }}
+      >
+        <div style={{ margin: "100px" }}>
+          <Grid container spacing={10}>
+            {menuChoice.map((menu, index) => (
+              <Grid item xs={12} md={6} key={index}>
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: justifyContente(index),
+                  }}
+                >
+                  <MenuChoice
+                    name={menu.name}
+                    ingredients={menu.ingredients}
+                    price={menu.price}
+                    img={menu.img}
+                  />
+                </div>
+              </Grid>
+            ))}
+          </Grid>
+        </div>
+      </motion.div>
     </div>
   );
 };
