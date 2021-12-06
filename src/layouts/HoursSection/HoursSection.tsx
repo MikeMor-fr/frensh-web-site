@@ -41,7 +41,7 @@ const HoursSection = () => {
     if (!inView) {
       animation.start({ y: "20vh", opacity: 0 });
     }
-  }, [inView]);
+  });
 
   return (
     <>

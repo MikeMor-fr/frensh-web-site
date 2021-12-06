@@ -69,7 +69,7 @@ const MenusSection = (): JSX.Element => {
     if (!inView) {
       animation.start({ opacity: 0 });
     }
-  }, [inView]);
+  });
   return (
     <div className='menu-section-container'>
       <TitleSection title={t("menus_section.title")} />

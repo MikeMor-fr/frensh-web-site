@@ -40,7 +40,7 @@ const InfoCardLeft = (props: InfoCardLeftProps): JSX.Element => {
     if (!inView) {
       animation.start({ x: "10vh", opacity: 0 });
     }
-  }, [inView]);
+  });
 
   return (
     <div ref={ref}>
