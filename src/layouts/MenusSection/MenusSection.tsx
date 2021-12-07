@@ -77,7 +77,7 @@ const MenusSection = (): JSX.Element => {
         <motion.div animate={animation}>
           <Grid container spacing={5}>
             {menus.map((menu, index) => (
-              <Grid item xs={12} sm={6} md={4}>
+              <Grid item xs={12} sm={6} md={4} key={index}>
                 <div
                   style={{
                     display: "flex",

@@ -7,6 +7,8 @@ import { motion, useAnimation } from "framer-motion";
 import "./InfoCardRight.scss";
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
+import useMediaQuery from "@mui/material/useMediaQuery";
+import { useTheme } from "@mui/material/styles";
 
 interface InfoCardRightProps {
   title: string;
@@ -16,6 +18,8 @@ interface InfoCardRightProps {
 
 const InfosCardRight = (props: InfoCardRightProps): JSX.Element => {
   const { title, description, image } = props;
+  const theme = useTheme();
+  const mobileScreen = useMediaQuery(theme.breakpoints.down("md"));
 
   const { ref, inView } = useInView({
     threshold: 0.2,
@@ -35,7 +39,7 @@ const InfosCardRight = (props: InfoCardRightProps): JSX.Element => {
       });
     }
     if (!inView) {
-      animation.start({ x: "-10vh", opacity: 0 });
+      animation.start({ x: mobileScreen ? 0 : "-10vh", opacity: 0 });
     }
   });
 

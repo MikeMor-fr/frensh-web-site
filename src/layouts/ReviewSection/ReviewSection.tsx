@@ -34,7 +34,7 @@ const ReviewSection = () => {
       <div style={{ margin: "100px" }}>
         <Grid container spacing={5}>
           {reviews.map((_review, index) => (
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={6} key={index}>
               <div
                 style={{
                   display: "flex",
