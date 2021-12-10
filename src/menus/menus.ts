@@ -159,6 +159,15 @@ export const menus = () => ({
   ],
 });
 
+export const menuTitles = () => [
+  i18n.t("menus_section.burgers"),
+  i18n.t("menus_section.salades"),
+  i18n.t("menus_section.frites"),
+  i18n.t("menus_section.assiettes"),
+  i18n.t("menus_section.hot_dogs"),
+  i18n.t("menus_section.sandwiches"),
+];
+
 export interface MenuChoiceProps {
   name: string;
   price: string;

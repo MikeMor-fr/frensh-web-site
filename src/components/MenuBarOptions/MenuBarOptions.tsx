@@ -9,6 +9,7 @@ import { useHistory } from "react-router-dom";
 // Translate
 import "../../i18n";
 import { useTranslation } from "react-i18next";
+import { menuTitles } from "../../menus/menus";
 
 const StyledMenu = styled((props: MenuProps) => (
   <Menu
@@ -66,15 +67,6 @@ export default function MenuBarOptions() {
     setAnchorEl(null);
   };
 
-  const menus = [
-    t("menus_section.burgers"),
-    t("menus_section.salades"),
-    t("menus_section.frites"),
-    t("menus_section.assiettes"),
-    t("menus_section.hot_dogs"),
-    t("menus_section.sandwiches"),
-  ];
-
   return (
     <div>
       <Button
@@ -98,7 +90,7 @@ export default function MenuBarOptions() {
         open={open}
         onClose={() => setAnchorEl(null)}
       >
-        {menus.map((menu, index) => (
+        {menuTitles().map((menu, index) => (
           <MenuItem
             onClick={() => handleClose(index)}
             disableRipple
