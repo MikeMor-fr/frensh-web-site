@@ -106,6 +106,10 @@ export default function PersistentDrawerRight(): JSX.Element {
       url: "/",
     },
     {
+      title: t("navbar_section.event"),
+      url: "/events",
+    },
+    {
       title: t("navbar_section.about"),
       url: "/about",
     },
@@ -220,13 +224,17 @@ export default function PersistentDrawerRight(): JSX.Element {
           >
             {t("welcome_section.title")}
           </Typography>
-          <Button onClick={() => handleNavigation("/")} color='inherit'>
-            {t("navbar_section.home")}
-          </Button>
+          {listItems.map((listItem, index) => (
+            <Button
+              onClick={() => handleNavigation(listItem.url)}
+              color='inherit'
+            >
+              {listItem.title}
+            </Button>
+          ))}
+
           <MenuBarOptions />
-          <Button onClick={() => handleNavigation("/about")} color='inherit'>
-            {t("navbar_section.about")}
-          </Button>
+
           <Button href='#contacts' color='inherit'>
             {t("navbar_section.contacts")}
           </Button>
