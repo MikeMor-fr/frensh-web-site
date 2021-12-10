@@ -2,7 +2,6 @@
 
 .end-section {
   background-color: $blackColor;
-  text-align: center;
   color: white;
   margin-top: 100px;
   padding-bottom: 50px;
@@ -17,10 +16,21 @@ a.nostyle:link {
   text-decoration: inherit;
   color: inherit;
   cursor: pointer;
+  margin-right: 10px;
 }
 
 a.nostyle:visited {
   text-decoration: inherit;
   color: inherit;
   cursor: pointer;
+}
+
+.footer-icons {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+p.icon-paragraph {
+  margin-left: 10px;
 }

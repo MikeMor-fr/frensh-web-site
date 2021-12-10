@@ -85,7 +85,25 @@
     "follow": "SUIVEZ-NOUS !",
     "contact": "CONTACTS :",
     "email": "frensh.antibes@gmail.com",
-    "phone": "+33493959620"
+    "phone": "+33493959620",
+    "service": "NOS SERVICES :",
+    "payment": "PAIEMENTS ACCEPTES :",
+    "services": {
+      "handicap": "Accessible aux personnes à mobilité réduite",
+      "terrasse": "Terrasse",
+      "parking": "Parking gratuit",
+      "event": "Evénements privés",
+      "smoking": "Coin fumeurs",
+      "takeaway": "A emporter",
+      "pets": "Animaux domestiques autorisés"
+    },
+    "payments": {
+      "cash": "Espèces",
+      "contact": "Paiement sans contact",
+      "mastercard": "MasterCard",
+      "ticket": "Ticket Restaurant",
+      "visa": "Visa"
+    }
   },
   "menus_info": {
     "burgers": {
